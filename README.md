@@ -17,7 +17,7 @@ These scripts were developed for analyzing genetic differentiation in relation t
   Calculates pairwise environmental distances among populations from .asc raster files. 
 
 - `resis_dist_calc.R`  
-  Generates resistance distance matrices using landscape resistance surfaces. In this script, pairwise resistance distance among population is calculated using [ResistanceGA](https://github.com/wpeterman/resistancega).
+  Generates resistance distance matrices using landscape resistance surfaces. In this script, pairwise resistance distance among populations is calculated using [ResistanceGA](https://github.com/wpeterman/resistancega).
 
 - `mantel.rtest.R`  
   Performs Mantel tests to assess correlations between genetic and explanatory distances using the mantel.rtest function in [ade4](https://www.rdocumentation.org/packages/ade4/versions/1.7-23). Pairwise geographic distance among populations is also calculated using [geodist](https://github.com/hypertidy/geodist) in this script.
